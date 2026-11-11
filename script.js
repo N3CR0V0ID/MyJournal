@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", function() {
           passcode: randomCode
         }, "fPSIqNunpk0Qg42ps")
         .then(function(response) {
-          alert("Verification code sent! Check your inbox.");
+          alert("Verification code sent! Check your inbox. (and spam folder)");
           window.location.href = "code.html";
         })
         .catch(function(error) {

@@ -240,7 +240,7 @@ document.addEventListener("DOMContentLoaded", function() {
         });
 
       } else {
-        alert("No account found matching that username and recovery email! Please register via sign_up.html first.");
+        alert("No account found matching that username and recovery email!");
       }
     });
   }
